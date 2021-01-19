@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Волонтерство</title>
+</head>
+
+<body>
+    <form class="form1" action="#" method="get">
+        <h3 class="form1__h1">Волонтерство</h3>
+        <hr class="form1__hr">
+        <h4 class="form3__h2">Заявка</h4>
+        <p class="form1__text">Оставьте нам заявку о том, что готовы помочь. Когда нам будет необходима помощь в
+            транспортировке, мы позвоним вам.</p>
+
+        <legend class="form1__legend">Фамилия и имя</legend><label class="form1__name" for="name"><input
+                class="form1__field" type="text" id="name" name="username" placeholder="Введите ваше имя и фамилию"
+                tabindex="1" required></label>
+        <br>
+
+        <legend class="form1__legend2">Номер телефона(только белорусский номер)</legend><label class="form1__name2"
+            for="tel"><input class="form1__field2" type="tel" id="tel" name="tel"
+                placeholder="Введите ваш номер телефона" tabindex="2" required></label>
+
+        <p class="form1__underfield">Обязательное поле для заполнения</p>
+        <input class="form__r" type="radio" id="option1" value="value1" name="can_help">
+        <label class="form4__rtext" for="option1">Хочу помогать на постоянной основе(расписание<br>
+            можно подобрать так, как будет вам удобно)</label><br>
+        <input class="form4__r2" type="radio" id="option2" value="value2" name="can_help">
+        <label class="form4__rtext2" for="option2">Готов помогать иногда. Хочу выбрать удобное для меня<br>
+            время</label><br>
+        <legend class="form1__legend3">Замечания</legend><textarea class="form1__field3" id="note" name="note"
+            placeholder="Опишите, как вы сможете нам помочь и удобное время для вас" tabindex="4"></textarea>
+        <div><button class="form1_batton" type="submit" tabindex="3">Отправить</button>
+            <button class="form1_batton2" type="button">Отмена</button>
+        </div>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Забрать домой</title>
+</head>
+
+<body>
+    <form class="form1" action="#" method="get">
+        <h2 class="form1__h1">Забрать домой</h2>
+        <hr class="form1__hr">
+        <p class="form1__text">Оставьте информацию о себе. мы позвоним вам и
+            договоримся, когда вы сможете забрать себе
+            питомца</p>
+        <legend class="form1__legend">Фамилия и имя</legend><label class="form1__name" for="name"><input
+                class="form1__field" type="text" id="name" name="username" placeholder="Введите ваше имя и фамилию"
+                tabindex="1" required></label>
+        <br>
+
+        <legend class="form1__legend2">Номер телефона(только белорусский номер)</legend><label class="form1__name2"
+            for="tel"><input class="form1__field2" type="tel" id="tel" name="tel"
+                placeholder="Введите ваш номер телефона" tabindex="2" required></label>
+
+        <p class="form1__underfield">Обязательное поле для заполнения</p>
+        <legend class="form1__legend3">Замечания</legend><textarea class="form1__field3" id="note" name="note"
+            placeholder="Введите информацию, которая будет полезна нам" tabindex="4"></textarea>
+        <p class="form1__call">Если у вас есть вопросы, можете позвонить нам:</p>
+        <p class="form1__callus">
+            <a href="tel:+375 (33) 6237879">+375 (33) 6237879</a> Лена<br>
+            <a href="tel:+375 (29) 7877791">+375 (29) 7877791</a> Ольга<br>
+            <a href="tel:+375 (29) 5837015">+375 (29) 5837015</a> Рита
+        </p>
+        <div><button class="form1__button" type="submit" tabindex="3">Отправить</button>
+            <button class="form1__button2" type="button" href="#animals">Отмена</button>
+        </div>
+    </form>
+</body>
+
+</html>
