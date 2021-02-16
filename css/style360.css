@@ -5,6 +5,8 @@
         min-width: 225px;
         height: 357px;
         left: 37%;
+        border-bottom-right-radius: 7px;
+        border-bottom-left-radius: 7px;
     }
     .bgwhite {
         top: 566px;
