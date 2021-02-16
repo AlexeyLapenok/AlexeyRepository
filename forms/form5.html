@@ -3,25 +3,31 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scale=1.0">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/style.css">
     <title>Кому и куда передать</title>
 </head>
 
-<body>
+<body class="form">
     <form class="form1" action="#" method="get">
-        <h3 class="form1__h1">Кому и куда передать</h3>
-        <hr class="form1__hr">
+        <h3 class="form1__h1">Кому и куда передать
+            <div class="form__close">
+                <a href="../index.html"><img src="../img/form_close.svg" alt="закрыть окно"></a>
+            </div>
+        </h3>
+        <hr color="eebf3a">
         <p class="form5__text">Чтобы передать купленые вещи, свяжитесь с нашими волонтерами. Вы сможете договориться о
             времени и месте встречи.</p>
 
         <p class="form5__text2">Если доставить сами не сможете - волонтеры вам помогут в доставке.</p>
-        <p class="form1__callus">
-            <a href="tel:+375 (33) 6237879">+375 (33) 6237879</a> Лена<br>
-            <a href="tel:+375 (29) 7877791">+375 (29) 7877791</a> Ольга<br>
-            <a href="tel:+375 (29) 5837015">+375 (29) 5837015</a> Рита
-        </p>
+        <div class="form5__call">
+            <ul class="form1__callus">
+                <li><a href="tel:+375 (33) 6237879"><b>+375 (33) 6237879</b></a> Лена</li>
+                <li><a href="tel:+375 (29) 7877791"><b>+375 (29) 7877791</b></a> Ольга</li>
+                <li><a href="tel:+375 (29) 5837015"><b>+375 (29) 5837015</b></a> Рита</li>
+            </ul>
+        </div>
     </form>
 </body>
 
