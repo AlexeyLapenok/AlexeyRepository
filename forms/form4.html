@@ -3,39 +3,49 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scale=1.0">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/style.css">
     <title>Волонтерство</title>
 </head>
 
-<body>
+<body class="form">
     <form class="form1" action="#" method="get">
-        <h3 class="form1__h1">Волонтерство</h3>
-        <hr class="form1__hr">
+        <h3 class="form1__h1">Волонтерство
+            <div class="form__close">
+                <a href="../index.html"><img src="../img/form_close.svg" alt="закрыть окно"></a>
+            </div>
+        </h3>
+        <hr color="eebf3a">
         <h4 class="form3__h2">Заявка</h4>
         <p class="form1__text">Оставьте нам заявку о том, что готовы помочь. Когда нам будет необходима помощь в
             транспортировке, мы позвоним вам.</p>
 
         <legend class="form1__legend">Фамилия и имя</legend><label class="form1__name" for="name"><input
-                class="form1__field" type="text" id="name" name="username" placeholder="Введите ваше имя и фамилию"
-                tabindex="1" required></label>
+                class="form1__field" type="text" id="name" name="username" minlength="2" maxlength="56"
+                placeholder="Введите ваше имя и фамилию" tabindex="1" autofocus></label>
         <br>
 
         <legend class="form1__legend2">Номер телефона(только белорусский номер)</legend><label class="form1__name2"
-            for="tel"><input class="form1__field2" type="tel" id="tel" name="tel"
-                placeholder="Введите ваш номер телефона" tabindex="2" required></label>
-
+            for="tel"><input class="form1__field2"
+                pattern="\s{0,}\+{1,1}375\s{0,}\({0,1}(([2]{1}([5]{1}|[9]{1}))|([3]{1}[3]{1})|([4]{1}[4]{1}))\s{0,}\s{0,}[0-9]{3,3}\s{0,}[0-9]{4,4}"
+                pattern="\D [^A-Za-zА-Яа-я]" type="tel" id="tel" name="tel" placeholder="Введите ваш номер телефона"
+                tabindex="2" required></label>
         <p class="form1__underfield">Обязательное поле для заполнения</p>
-        <input class="form__r" type="radio" id="option1" value="value1" name="can_help">
-        <label class="form4__rtext" for="option1">Хочу помогать на постоянной основе(расписание<br>
-            можно подобрать так, как будет вам удобно)</label><br>
-        <input class="form4__r2" type="radio" id="option2" value="value2" name="can_help">
-        <label class="form4__rtext2" for="option2">Готов помогать иногда. Хочу выбрать удобное для меня<br>
-            время</label><br>
+        <div class="form__radio">
+            <input class="form__r" type="radio" id="option1" value="value1" name="can_help" checked>
+            <label class="form4__rtext" for="option1">Хочу помогать на постоянной основе(расписание<br>
+                можно подобрать так, как будет вам удобно)</label><br>
+            <input class="form4__r2" type="radio" id="option2" value="value2" name="can_help">
+            <label class="form4__rtext2" for="option2">Готов помогать иногда. Хочу выбрать удобное для меня<br>
+                время</label><br>
+        </div>
         <legend class="form1__legend3">Замечания</legend><textarea class="form1__field3" id="note" name="note"
-            placeholder="Опишите, как вы сможете нам помочь и удобное время для вас" tabindex="4"></textarea>
-        <div><button class="form1_batton" type="submit" tabindex="3">Отправить</button>
-            <button class="form1_batton2" type="button">Отмена</button>
+            placeholder="Опишите, на какой срок вы смогли бы взять питомца на передержку" tabindex="4"
+            maxlength="500"></textarea>
+
+        <div class="form1__buttons"><button class="form1__button" type="submit" tabindex="3">Отправить заявку</button>
+            <button class="form1__button2" type="button" href="#animals">Отмена</button>
         </div>
     </form>
 </body>
