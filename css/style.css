@@ -65,7 +65,7 @@
     /* font-style: normal; */
     font-size: 16px;
     /* line-height: 1.5; */ 
-    font-family: 'Gilroy', serif;
+    font-family: 'Gilroy', 'Arial';
     /* text-align: center; */
     color: #242424;
 
@@ -192,6 +192,17 @@
 .menu__ref {
     text-decoration: none;
     color: black;
+}
+.menu__ref:hover {
+    text-decoration: underline;
+    font-weight: 700px;
+    color: #000000;
+}
+.menu__ref:active {
+    text-decoration: underline;
+    font-weight: 700px;
+    color: #6b6b6b;
+
 }
 .menu__head--centr {
     justify-content: center;
@@ -1085,35 +1096,17 @@
     font-weight: 400;
     font-size: 14px;   
 }
-.navi__home {
+.navi__ref {
     color: #474747;
     font-weight: 400;
     font-size: 14px;
     margin-right: 40px;
 }
-.navi__fin {
-    color: #474747;
-    font-weight: 400;
-    font-size: 14px;
-    margin-right: 40px;
+.navi__ref:hover {
+    color: #ad7f00;
 }
-.navi__loot {
+.navi__ref:active {
     color: #474747;
-    font-weight: 400;
-    font-size: 14px;
-    margin-right: 40px;
-}
-.navi__avto {
-    color: #474747;
-    font-weight: 400;
-    font-size: 14px;
-    margin-right: 40px;
-}
-.navi__volont {
-    color: #474747;
-    font-weight: 400;
-    font-size: 14px;
-    margin-right: 40px;
 }
 .menu__us {
     display: flex;
@@ -1133,10 +1126,22 @@
     font-size: 14px;
     margin-right: 42px;
 }
+.us__about:hover {
+    color: #ad7f00;
+}
+.us__about:active {
+    color: #474747;
+}
 .us__contacts {
     color: #474747;
     font-weight: 400;
     font-size: 14px;
+}
+.us__contacts:hover {
+    color: #ad7f00;
+}
+.us__contacts:active {
+    color: #474747;
 }
 .block12__end {
     color: #b3b3b3;
@@ -1168,7 +1173,7 @@
     /* font-style: normal; */
     font-size: 16px;
     /* line-height: 1.5; */ 
-    font-family: 'Gilroy', serif;
+    font-family: 'Gilroy', 'Arial';
     /* text-align: center; */
     color: #242424;
 
@@ -1390,11 +1395,12 @@ select {
     height: 42px;
     border-radius: 58px;
     border: 2px solid #ffc41e;
+    background-color: #FFFFFF;
     margin-top: 32px;
     margin-bottom: 30px;
 }
 .form1__button2:hover {
-    background-color: #FFFFFF;
+    background-color: #f6f6f6;
 }
 .form1__button2:active {
     background: #F8ECCB;
