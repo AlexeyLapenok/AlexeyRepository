@@ -81,10 +81,7 @@
     /* Разное */
 
 }
-.header {
-    
-    
-}
+
 .bgdog{
     background: url(../img/dog1-min.png) no-repeat;
     position: absolute;
@@ -93,10 +90,8 @@
     margin: 0 auto;
     min-width: 713px;
     height: 713px;
-    
 }
 .bgdog {
-    
     animation-name: lift-up-dog;
     animation-duration: 2s;
   }
@@ -116,7 +111,7 @@
     background-color: #ffffff;
     position: absolute;
     z-index: -14;
-    top: 834px;
+    margin-top: 220px;
     min-width: 100%;
     height: 650px;
 }
@@ -154,7 +149,7 @@
     width: 483px;
     height: 469px;
     margin: 0 auto;
-    background: url(../img/cat\ 1.png);
+    background: url(../img/cat\ 1.png) no-repeat;
     transition-property: all;
     transition-duration: 1s;
     transition-timing-function: ease-in-out;
@@ -179,10 +174,6 @@
     display: flex;
     max-width: 1146px;
     margin: 0 auto;
-
-    
-
-    
 }
 .menu__head {
     width: 1146px;
@@ -194,28 +185,16 @@
     align-items: center;
     
 }
-.menu__head--left {
-}
 .menu__item {
     display: flex;
     margin-left: 32px;
-}
-.menu__item--help {
-    
 }
 .menu__ref {
     text-decoration: none;
     color: black;
 }
-.menu__item--animals {
-}
 .menu__head--centr {
     justify-content: center;
-}
-.menu__item--us {
-    
-}
-.menu__item--contacts {
 }
 .menu__head--social {
     justify-content: flex-end;
@@ -242,14 +221,15 @@
      display: none;
  }
 @media (max-width:1023px){
-    .bgdog{
-    }
     .menu__head--left {
         display: none;
 
     }
     .menu__head--centr {
         display: none;
+    }
+    .menu__head--social {
+        justify-content: flex-end;
     }
     .menu__burger {
         display: block;
@@ -299,7 +279,6 @@
 .block1__text {
     animation-name: to-right;
     animation-duration: 3s;
-    
     animation-timing-function: ease-in-out;
   }
   
@@ -408,12 +387,6 @@
     border-radius: 50%;
     border: 8px solid #ffc41e;
 }
-.page__block2 {
-    
-}
-.block2__img {
-    
-}
 .block2-box {
     max-width: 1146px;
     margin: 0 auto;
@@ -430,7 +403,7 @@
     color: #c78100;
     font-weight: 600;
     font-size: 28px;
-    margin-top: 380px;
+    margin-top: 340px;
 }
 .text__p1 {
     margin-left: 10%;
@@ -680,9 +653,6 @@
 .block4__inst {
     display: flex;
 }
-.page__block5 {
-
-}
 .block-finans{
     max-width: 1146px;
     margin: 0 auto;
@@ -694,9 +664,9 @@
     background-color: #ffffff;
     position: absolute;
     z-index: -14;
-    top: 4262px;
+    margin-top: -100px;
     width: 100%;
-    height: 681px;
+    height: 731px;
 }
 .block5__h2 {
     font-weight: 600;
@@ -752,8 +722,6 @@
 }
 .block5__boxes {
     margin-bottom: 167px;
-    
-    
 }
 .boxes__h3 {
     font-weight: 300;
@@ -770,7 +738,6 @@
 .boxes__list {
     margin-top: 7px;
     margin-left: -25px;
-    
 }
 .boxes__item {
     padding-bottom: 7px;
@@ -919,10 +886,8 @@
     
 }
 .block8__h2 {
-    
     font-weight: 600;
     font-size: 28px;
-    font-style: normal;
     margin-top: 112px;
     margin-bottom: 0px;
 }
@@ -958,9 +923,6 @@
     border-color: #FFBB0C;
     background-color: #FFBB0C;
 }
-.page__block9 {
-    
-}
 .block9__container{
     max-width: 1146px;
     margin: 0 auto;
@@ -971,7 +933,6 @@
     background-color: #ffffff;
     position: absolute;
     z-index: -14;
-    top: 7080px;
     width: 100%;
     height: 563px;
     
@@ -1008,7 +969,6 @@
     color: #ad7f00;
     font-weight: 500;
     font-size: 20px;
-    font-style: normal;
     margin-top: 24px;
     margin-bottom: 0px;
     margin-left: 17%;
@@ -1032,25 +992,21 @@
 .block10__text {
     font-weight: 500;
     font-size: 18px;
-    font-style: normal;
     margin-top: 24px;
     margin-bottom: 0px;
 }
 .block10__cont {
     font-weight: 400;
     font-size: 22px;
-    font-style: normal;
     margin-top: 24px;
     margin-bottom: 0px;
 }
 .block10__text1 {
     font-weight: 400;
-    font-style: normal;
 }
 .block10__numb {
     list-style-type: none;
     font-weight: 400;
-    font-style: normal;
 }
 .block10__numb li {
     margin-bottom: 7px;
@@ -1085,14 +1041,6 @@
 .block10__social img:active {
     background: #F8ECCB;    
     border-radius: 50%;
-}
-.block10_vk {
-}
-.block10_inst {
-}
-.page__block11 {
-    
-    
 }
 .block11__backthanks{
     background: url(../img/Group\ 67.jpg) no-repeat;
@@ -1250,7 +1198,6 @@
     color: #6b6b6b;
     font-weight: 400;
     font-size: 12px;
-    font-style: normal;
 }
 .header__back a {
     font-weight: 500;
@@ -1278,13 +1225,11 @@
     margin-top: auto;
     font-weight: 600;
     font-size: 28px;
-    font-style: normal;
 }
 .header__show{
     color: #6b6b6b;
     font-weight: 400;
     font-size: 14px;
-    font-style: normal;
 }
 select {
     writing-mode: horizontal-tb !important;
@@ -1337,32 +1282,24 @@ select {
     color: #b3b3b3;
     font-weight: 600;
     font-size: 28px;
-    font-style: normal;
     padding-top: 30px;
     margin-top: 0;
-}
-.form1__hr{
 }
 .form1__text {
     color: #6b6b6b;
     font-weight: 400;
-    
-    font-style: normal;
-}
+    }
 .form1__legend {
     color: #474747;
     font-weight: 500;
     font-size: 14px;
-    font-style: normal;
     margin-top: 32px;
     padding-bottom: 2px;
 }
 .form1__name {
     color: #6b6b6b;
     font-weight: 400;
-    
-    font-style: normal;
-}
+    }
 .form1__field {
     width: 100%;
     height: 40px;
@@ -1373,10 +1310,7 @@ select {
     color: #474747;
     font-weight: 500;
     font-size: 14px;
-    font-style: normal;
     padding-bottom: 2px;
-}
-.form1__name2 {
 }
 .form1__field2 {
     width: 100%;
@@ -1387,7 +1321,6 @@ select {
     color: #b3b3b3;
     font-weight: 400;
     font-size: 14px;
-    font-style: normal;
     margin-top: 2px;
     margin-bottom: 22px;
 }
@@ -1395,7 +1328,6 @@ select {
     color: #474747;
     font-weight: 500;
     font-size: 14px;
-    font-style: normal;
     padding-bottom: 2px;
 }
 .form1__field3{
@@ -1406,7 +1338,6 @@ select {
     color: #474747;
     font-weight: 400;
     font-size: 14px;
-    font-style: normal;
     margin-top: 24px;
     margin-bottom: 2px;
 }
@@ -1416,7 +1347,6 @@ select {
     padding-inline-start: 0%;
     font-weight: 400;
     font-size: 14px;
-    font-style: normal;
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -1438,7 +1368,6 @@ select {
     color: #6b6b6b;
     font-weight: 500;
     font-size: 20px;
-    font-style: normal; 
     min-width: 168px;
     height: 42px;
     border-radius: 58px;
@@ -1457,7 +1386,6 @@ select {
 .form1__button2 {
     font-weight: 500;
     font-size: 20px;
-    font-style: normal;
     width: 168px;
     height: 42px;
     border-radius: 58px;
@@ -1495,46 +1423,27 @@ select {
 .form2__text {
     color: #b3b3b3;
     font-weight: 400;
-    
-    font-style: normal;
-}
+    }
 .form2__text2 {
     color: #b3b3b3;
     font-weight: 400;
-    
-    font-style: normal;
-}
+    }
 /* form3 */
 .form3__h2 {
-    
     font-weight: 500;
     font-size: 22px;
-    font-style: normal;
 }
 /* form4 */
 .form__radio {
     margin-bottom: 30px;
 }
-.form4__rtext {
-}
-.form4__r2 {
-}
-.form4__rtext2 {
-   
-}
 /* form5 */
 .form5__text{
-    
     font-weight: 400;
-    
-    font-style: normal;
-}
+    }
 .form5__text2{
-    
     font-weight: 400;
-    
-    font-style: normal; 
-}
+    }
 .form5__call {
     padding-bottom: 30px;
 }
