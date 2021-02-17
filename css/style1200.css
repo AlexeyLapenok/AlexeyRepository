@@ -1,0 +1,52 @@
+@media screen and (max-width: 1240px) {
+    .bgdog {
+        left: auto;
+        right: 5%;
+        background-size: 580px;
+        
+    }
+    .bgfriend {
+        left: 0%;
+        background-size: 580px;
+    }
+    .bgcat {
+        background-size: 350px;
+        left: 30%;
+    }
+    .nav {
+        margin-left: 10%;
+    }
+    .menu__head--social {
+        margin-right: 25%;
+    }
+    .block1__text {
+        margin-top: -100px;
+        margin-left: 9%;
+    }
+    .bgwhite{
+        margin-top: 220px;
+        height: 850px;
+    }
+    .bgtwoanimals__box {
+        right: 88%;
+    } 
+    .bgtwoanimals__dog {
+        right: 47%;
+    }
+    .bgtwoanimals__cat {
+        left: 27%; 
+    }
+    .block2__text {
+       max-width: 300px;
+       margin-left: 60%;
+    }
+    .block3__h {
+    padding-top: 20px;
+    }
+    .wards-flex {
+        flex-wrap: wrap;
+    }
+    .bgdogtoy {
+        right: -100px;
+    }
+}
